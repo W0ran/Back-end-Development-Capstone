@@ -11,8 +11,8 @@ from concert.models import Concert, ConcertAttending
 import requests as req
 import os
 
-SONGS_URL = os.environ.get("SONGS_URL", "http://localhost:5000")
-PHOTO_URL = os.environ.get("PHOTO_URL", "http://localhost:3000")
+SONGS_URL = os.environ.get("SONGS_URL", "https://songs-sn-labs-gneissbonanz.labs-prod-openshift-san-a45631dc5778dc6371c67d206ba9ae5c-0000.us-east.containers.appdomain.cloud")
+PHOTO_URL = os.environ.get("PHOTO_URL", "https://pictures.2h6e3s4181vs.us-south.codeengine.appdomain.cloud")
 
 
 # Create your views here.
